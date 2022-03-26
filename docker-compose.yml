@@ -12,19 +12,22 @@ services:
   #   ports:
   #     - 80:80
 
-  web-onhyang-admin:
+  coin-tracker:
     build:
-      context: ./web
+      context: ./coin-tracker
       dockerfile: Dockerfile.dev
-    container_name: web
+    container_name: coin-tracker
     volumes:
       - /usr/src/web/.yarn
-      - ./web/src:/usr/src/web/src
+      - ./coin-tracker/src:/usr/src/web/src
       - ./data/web/logs:/usr/src/web/logs
     ports:
       - '3000:3000'
     expose:
       - '3000'
     env_file:
-      - ./web/.env.development
+      - ./coin-tracker/.env.development
     platform: linux/x86_64
+    mem_limit: 8g
+    mem_reservation: 8g
+    memswap_limit: 8g
