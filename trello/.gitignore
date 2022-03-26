@@ -28,8 +28,3 @@ yarn-error.log*
 
 # .vscode
 .vscode
-
-data
-.vscode
-
-.yarn
