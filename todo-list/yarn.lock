@@ -2007,6 +2007,46 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-master/todo-list@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@react-master/todo-list@workspace:."
+  dependencies:
+    "@testing-library/jest-dom": ^4.2.4
+    "@testing-library/react": ^12.1.4
+    "@testing-library/user-event": ^13.5.0
+    "@types/jest": ^27.4.1
+    "@types/node": ^17.0.23
+    "@types/prettier": ^2
+    "@types/react": ^17.0.43
+    "@types/react-dom": ^17.0.14
+    "@types/react-helmet": ^6.1.5
+    "@types/react-router-dom": ^5.3.3
+    "@types/styled-components": ^5.1.24
+    "@typescript-eslint/eslint-plugin": ^5.16.0
+    "@typescript-eslint/parser": ^5.16.0
+    apexcharts: ^3.33.2
+    eslint: latest
+    eslint-config-prettier: ^8.5.0
+    eslint-config-react-app: ^7.0.0
+    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-react: ^7.29.4
+    react: ^17.0.2
+    react-apexcharts: ^1.4.0
+    react-dom: ^17.0.2
+    react-helmet: ^6.1.0
+    react-hook-form: ^7.28.1
+    react-is: ^17.0.2
+    react-query: ^3.34.17
+    react-router-dom: 5.3.0
+    react-scripts: 5.0.0
+    recoil: ^0.6.1
+    styled-components: 5.3.1
+    styled-reset: ^4.3.4
+    typescript: ^4.6.3
+    web-vitals: ^2.1.4
+  languageName: unknown
+  linkType: soft
+
 "@rollup/plugin-babel@npm:^5.2.0":
   version: 5.3.1
   resolution: "@rollup/plugin-babel@npm:5.3.1"
@@ -10309,6 +10349,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-hook-form@npm:^7.28.1":
+  version: 7.28.1
+  resolution: "react-hook-form@npm:7.28.1"
+  peerDependencies:
+    react: ^16.8.0 || ^17
+  checksum: 176e653f3c5c1882125b6d51d3b2258c7120202227b91edbf74708eb3f0d455b3c827f1b6c236cdf208de82871b14e86d9aeacbd44c418bcf591b2346721156f
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.13.1, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.4":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -12400,45 +12449,6 @@ __metadata:
   checksum: 03d3f47dbf55c3dce07beb0ff5de8ddd52e2d0a53a8df5c84e7a16dda93543341d67231fa79b1d9772b091419af4ec0fd395b8bcf451a0e26846e3f76b3d0efc
   languageName: node
   linkType: hard
-
-"web@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "web@workspace:."
-  dependencies:
-    "@testing-library/jest-dom": ^4.2.4
-    "@testing-library/react": ^12.1.4
-    "@testing-library/user-event": ^13.5.0
-    "@types/jest": ^27.4.1
-    "@types/node": ^17.0.23
-    "@types/prettier": ^2
-    "@types/react": ^17.0.43
-    "@types/react-dom": ^17.0.14
-    "@types/react-helmet": ^6.1.5
-    "@types/react-router-dom": ^5.3.3
-    "@types/styled-components": ^5.1.24
-    "@typescript-eslint/eslint-plugin": ^5.16.0
-    "@typescript-eslint/parser": ^5.16.0
-    apexcharts: ^3.33.2
-    eslint: latest
-    eslint-config-prettier: ^8.5.0
-    eslint-config-react-app: ^7.0.0
-    eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-react: ^7.29.4
-    react: ^17.0.2
-    react-apexcharts: ^1.4.0
-    react-dom: ^17.0.2
-    react-helmet: ^6.1.0
-    react-is: ^17.0.2
-    react-query: ^3.34.17
-    react-router-dom: 5.3.0
-    react-scripts: 5.0.0
-    recoil: ^0.6.1
-    styled-components: 5.3.1
-    styled-reset: ^4.3.4
-    typescript: ^4.6.3
-    web-vitals: ^2.1.4
-  languageName: unknown
-  linkType: soft
 
 "webidl-conversions@npm:^4.0.2":
   version: 4.0.2
