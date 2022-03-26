@@ -1,0 +1,8 @@
+{
+    "singleQuote": false,
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "scripts": {
+        "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
+    }
+}  

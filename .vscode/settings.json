@@ -3,8 +3,8 @@
     "**/.yarn": true,
     "**/.pnp.*": true
   },
-  "eslint.nodePath": "./web/.yarn/sdks",
-  "prettier.prettierPath": "./web/.yarn/sdks/prettier/index.js",
-  "typescript.tsdk": "./web/.yarn/sdks/typescript/lib",
+  "eslint.nodePath": "./coin-tracker/.yarn/sdks",
+  "prettier.prettierPath": "./coin-tracker/.yarn/sdks/prettier/index.js",
+  "typescript.tsdk": "./coin-tracker/.yarn/sdks/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true
 }
